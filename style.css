@@ -1,0 +1,64 @@
+/* Très petits écrans (smartphones, moins de 768px) */
+/* Propriétés générales */
+
+/***********************HEADER***********************/
+
+#logoairbnb {
+  width: 31px;
+  margin-left: 17px;
+  margin-top: 10px;
+  color: red;
+}
+
+.fa fa-angle-down {
+  display: inline-flex;
+}
+
+.list1 {
+  display: none;
+}
+
+/****************************MAIN************************/
+h2 {
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.6px;
+  color: #484848;
+  margin-top: 45px;
+  margin-left: 15px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+span {
+  color: #FF5A5F;
+  font-weight: 700;
+}
+
+.recherche {
+  display: none;
+}
+
+.input input {
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: .5px .5px .5px rgb(215,215,215);
+  border: .5px solid rgb(215,215,215);
+  height: 40px;
+  width: 80%;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+/* Petits écrans (tablettes, 768px et plus) */
+@media (min-width: 768px) {
+}
+
+
+/* Ecrans moyens (desktops, 992px et plus) */
+@media (min-width: 992px) {
+  .list1 {
+    display: inline;
+  }
+
+
+}
