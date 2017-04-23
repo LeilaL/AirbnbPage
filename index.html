@@ -7,15 +7,17 @@
     <title>Locations de vacances, logements, expériences et lieux - Airbnb</title>
     <link rel="icon" type="image/png" href="	https://a0.muscache.com/airbnb/static/logotype_favicon-21cc8e6c6a2cca43f061d2dcabdf6e58.ico"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
 
     <!---HEADER------------>
     <header>
-      <img src="	https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png" alt="logo airbnb">
+      <img id="logoairbnb" src="https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png" alt="logo airbnb">
+      <i class="fa fa-angle-down" aria-hidden="true"></i>
       <nav>
-        <ul>
+        <ul class="list1">
           <li><a href="#">Devenez hôte</a></li>
           <li><a href="#">Aide</a></li>
           <li><a href="#">Inscription</a></li>
@@ -27,8 +29,11 @@
     <main>
 
       <section>
-        <h2>Où souhaitez-vous aller ?<br>Votre prochain voyage<br>commence sur Airbnb.</h2>
-      <form>
+        <h2><span>Où souhaitez-vous<br> aller ?</span> Votre prochain voyage commence sur Airbnb.</h2>
+        <form class="input">
+          <input type="text" placeholder="Partout · Dates indifférentes ·..."/>
+        </form>
+     <form class="recherche">
         <label>Où<input type="text" placeholder="Partout"/></label>
         <label>Quand<input type="text" placeholder="Dates indifférentes"/></label>
         <label>Voyageurs<select>
@@ -36,10 +41,10 @@
         </label>
         <button type="submit">Rechercher</button>
       </form>
-      <div>
+      <div class="menu">
         <nav>
         <ul>
-          <li><a href="#">RECOMMANDÉ</a></li>
+          <li><a href="#"><span>RECOMMANDÉ</span></a></li>
           <li><a href="#">LOGEMENTS</a></li>
           <li><a href="#">EXPÉRIENCES</a></li>
           <li><a href="#">LIEUX</a></li>
@@ -53,42 +58,42 @@
         <h3>Réservées à l'instant</h3>
         <figure>
           <img src="https://a0.muscache.com/im/pictures/facb17cc-ab67-423c-ae60-87c6ffa96a3f.jpg?aki_policy=poster" alt="2 personnes chevauchant">
-          <figcaption>90€Ride horses to medieval villages<br>
+          <figcaption><strong>90€</strong> Ride horses to medieval villages<br>
             <div class="rating">
-             <a href="#5" title="Donner 5 étoiles">☆</a>
-             <a href="#4" title="Donner 4 étoiles">☆</a>
-             <a href="#3" title="Donner 3 étoiles">☆</a>
-             <a href="#2" title="Donner 2 étoiles">☆</a>
-             <a href="#1" title="Donner 1 étoile">☆</a>
-             <a href="coms" title="commentaires">9 commentaires</a>
+             <a href="#5" title="Donner 5 étoiles">★</a>
+             <a href="#4" title="Donner 4 étoiles">★</a>
+             <a href="#3" title="Donner 3 étoiles">★</a>
+             <a href="#2" title="Donner 2 étoiles">★</a>
+             <a href="#1" title="Donner 1 étoile">★</a>
+             <a class="coms" href="coms" title="commentaires">9 commentaires</a>
             </div>
           </figcaption>
         </figure>
 
         <figure>
           <img src="https://a0.muscache.com/im/pictures/92273b76-6ec7-4a1d-8f56-e354db9b32ff.jpg?aki_policy=poster" alt="personnes prenant l'apéro">
-          <figcaption>75€ Indulge in local tapas with foodies<br>
+          <figcaption><strong>75€</strong> Indulge in local tapas with foodies<br>
             <div class="rating">
-             <a href="#5" title="Donner 5 étoiles">☆</a>
-             <a href="#4" title="Donner 4 étoiles">☆</a>
-             <a href="#3" title="Donner 3 étoiles">☆</a>
-             <a href="#2" title="Donner 2 étoiles">☆</a>
-             <a href="#1" title="Donner 1 étoile">☆</a>
-             <a href="coms" title="commentaires">33 commentaires</a>
+             <a href="#5" title="Donner 5 étoiles">★</a>
+             <a href="#4" title="Donner 4 étoiles">★</a>
+             <a href="#3" title="Donner 3 étoiles">★</a>
+             <a href="#2" title="Donner 2 étoiles">★</a>
+             <a href="#1" title="Donner 1 étoile">★</a>
+             <a class="coms" href="coms" title="commentaires">33 commentaires</a>
             </div>
           </figcaption>
         </figure>
 
         <figure>
           <img src="	https://a0.muscache.com/im/pictures/4088f3d4-60c4-43aa-8142-225cdca052e6.jpg?aki_policy=poster" alt="personnes sur un bateau">
-          <figcaption>65€ Sip vermouth after a scenic sail<br>
+          <figcaption><strong>65€</strong> Sip vermouth after a scenic sail<br>
             <div class="rating">
-             <a href="#5" title="Donner 5 étoiles">☆</a>
-             <a href="#4" title="Donner 4 étoiles">☆</a>
-             <a href="#3" title="Donner 3 étoiles">☆</a>
-             <a href="#2" title="Donner 2 étoiles">☆</a>
-             <a href="#1" title="Donner 1 étoile">☆</a>
-             <a href="coms" title="commentaires">25 commentaires</a>
+             <a href="#5" title="Donner 5 étoiles">★</a>
+             <a href="#4" title="Donner 4 étoiles">★</a>
+             <a href="#3" title="Donner 3 étoiles">★</a>
+             <a href="#2" title="Donner 2 étoiles">★</a>
+             <a href="#1" title="Donner 1 étoile">★</a>
+             <a class="coms" href="coms" title="commentaires">25 commentaires</a>
             </div>
           </figcaption>
         </figure>
@@ -96,21 +101,21 @@
 
         <figure>
           <img src="https://a0.muscache.com/im/pictures/3dc03465-820a-4698-871c-5d174947eff1.jpg?aki_policy=poster" alt="personnes qui cuisinent">
-          <figcaption>119€ Cooking class in the Countryside<br>
+          <figcaption><strong>119€</strong> Cooking class in the Countryside<br>
             <div class="rating">
-             <a href="#5" title="Donner 5 étoiles">☆</a>
-             <a href="#4" title="Donner 4 étoiles">☆</a>
-             <a href="#3" title="Donner 3 étoiles">☆</a>
-             <a href="#2" title="Donner 2 étoiles">☆</a>
-             <a href="#1" title="Donner 1 étoile">☆</a>
-             <a href="coms" title="commentaires">23 commentaires</a>
+             <a href="#5" title="Donner 5 étoiles">★</a>
+             <a href="#4" title="Donner 4 étoiles">★</a>
+             <a href="#3" title="Donner 3 étoiles">★</a>
+             <a href="#2" title="Donner 2 étoiles">★</a>
+             <a href="#1" title="Donner 1 étoile">★</a>
+             <a class="coms" href="coms" title="commentaires">23 commentaires</a>
             </div>
           </figcaption>
         </figure>
 
         <figure>
           <img src="https://a0.muscache.com/im/pictures/6043007e-82ea-4c0d-abe1-5f07ae4d61d4.jpg?aki_policy=poster" alt="personnes qui regardent des bijoux ">
-          <figcaption>17€ Engage in a nite of art, music, dance</figcaption>
+          <figcaption><strong>17€</strong> Engage in a nite of art, music, dance</figcaption>
         </figure>
 
       </article>
@@ -121,143 +126,149 @@
        <a href="#">Plus ></a>
         <figure>
           <img src="https://a0.muscache.com/im/pictures/cd745e58-5dc9-40e0-86af-edb52833c4d3.jpg?aki_policy=poster" alt="personnes qui parlent dans un restaurant">
-          <figcaption>57€ Get a taste of an authentic tapas</figcaption>
+          <figcaption><strong>57€</strong> Get a taste of an authentic tapas</figcaption>
         </figure>
 
         <figure>
           <img src="https://a0.muscache.com/im/pictures/e7c42399-f6fa-4021-82a9-615033cceac6.jpg?aki_policy=poster" alt="personne qui prend une photo">
-          <figcaption>45€ A deep visual adventure</figcaption>
+          <figcaption><strong>45€</strong> A deep visual adventure</figcaption>
         </figure>
 
         <figure>
           <img src="https://a0.muscache.com/im/pictures/f808efea-5873-45a9-a241-ebbd67db89cb.jpg?aki_policy=poster" alt="personne qui cuisine">
-          <figcaption>43€ Experience authentic home cooking &amp; beautiful</figcaption>
+          <figcaption><strong>43€</strong> Experience authentic home cooking &amp; beautiful</figcaption>
         </figure>
 
         <figure>
           <img src="https://a0.muscache.com/im/pictures/2c5724bd-6af9-4f66-830e-d2c44d86a92f.jpg?aki_policy=poster" alt="une plante">
-          <figcaption>82€ dine on farm with the Chef & Farmer</figcaption>
+          <figcaption><strong>82€</strong> dine on farm with the Chef & Farmer</figcaption>
         </figure>
 
         <figure>
           <img src="https://a0.muscache.com/im/pictures/8426a86c-f51f-43e6-ad77-c3dab5ac6f78.jpg?aki_policy=poster" alt="photo d'une salle avec fenetre">
-          <figcaption>29€ Walk, shop and taste Union St.'s best</figcaption>
+          <figcaption><strong>29€</strong> Walk, shop and taste Union St.'s best</figcaption>
         </figure>
 
       </article>
 
 <!--TROISIEME GALERIE--------------------------->
 
-      <article >
+      <article id="logement">
         <h3>Logements</h3>
         <a href="#">Plus ></a>
         <figure>
           <img src="https://a0.muscache.com/im/pictures/10833886/1edf8559_original.jpg?aki_policy=large" alt="table sur terrasse">
-          <figcaption>35€ The best position in Hvar!<br>Logement entier · 2 lits
+          <figcaption><strong>35€ The best position in Hvar!</strong> <br>Logement entier · 2 lits
             <div class="rating">
-             <a href="#5" title="Donner 5 étoiles">☆</a>
-             <a href="#4" title="Donner 4 étoiles">☆</a>
-             <a href="#3" title="Donner 3 étoiles">☆</a>
-             <a href="#2" title="Donner 2 étoiles">☆</a>
-             <a href="#1" title="Donner 1 étoile">☆</a>
-             <a href="coms" title="commentaires">210 commentaires</a>
+             <a href="#5" title="Donner 5 étoiles">★</a>
+             <a href="#4" title="Donner 4 étoiles">★</a>
+             <a href="#3" title="Donner 3 étoiles">★</a>
+             <a href="#2" title="Donner 2 étoiles">★</a>
+             <a href="#1" title="Donner 1 étoile">★</a>
+             <a class="coms" href="coms" title="commentaires">210 commentaires</a>
             </div>
           </figcaption>
         </figure>
 
         <figure>
           <img src="https://a0.muscache.com/im/pictures/25735497/948807b4_original.jpg?aki_policy=large" alt="un salon">
-          <figcaption>68€ Designer Loft Bangkok Silom <br>Logement entier · 1 lit
+          <figcaption><strong>68€ Designer Loft Bangkok Silom</strong><br>Logement entier · 1 lit
             <div class="rating">
-             <a href="#5" title="Donner 5 étoiles">☆</a>
-             <a href="#4" title="Donner 4 étoiles">☆</a>
-             <a href="#3" title="Donner 3 étoiles">☆</a>
-             <a href="#2" title="Donner 2 étoiles">☆</a>
-             <a href="#1" title="Donner 1 étoile">☆</a>
-             <a href="coms" title="commentaires">131 commentaires</a>
+             <a href="#5" title="Donner 5 étoiles">★</a>
+             <a href="#4" title="Donner 4 étoiles">★</a>
+             <a href="#3" title="Donner 3 étoiles">★</a>
+             <a href="#2" title="Donner 2 étoiles">★</a>
+             <a href="#1" title="Donner 1 étoile">★</a>
+             <a class="coms" href="coms" title="commentaires">131 commentaires</a>
             </div>
           </figcaption>
         </figure>
 
         <figure>
           <img src="https://a0.muscache.com/im/pictures/27140490/43479b34_original.jpg?aki_policy=large" alt="une cabane">
-          <figcaption>164€ Adorable Garden Gingerbread House<br>Logement entier · 1 lit
+          <figcaption><strong>164€ Adorable Garden Gingerbread House</strong><br>Logement entier · 1 lit
             <div class="rating">
-             <a href="#5" title="Donner 5 étoiles">☆</a>
-             <a href="#4" title="Donner 4 étoiles">☆</a>
-             <a href="#3" title="Donner 3 étoiles">☆</a>
-             <a href="#2" title="Donner 2 étoiles">☆</a>
-             <a href="#1" title="Donner 1 étoile">☆</a>
-             <a href="coms" title="commentaires">155 commentaires</a>
+             <a href="#5" title="Donner 5 étoiles">★</a>
+             <a href="#4" title="Donner 4 étoiles">★</a>
+             <a href="#3" title="Donner 3 étoiles">★</a>
+             <a href="#2" title="Donner 2 étoiles">★</a>
+             <a href="#1" title="Donner 1 étoile">★</a>
+             <a class="coms" href="coms" title="commentaires">155 commentaires</a>
             </div>
           </figcaption>
         </figure>
 
       </article>
 
-      <article>
+      <article id="destination">
         <h3>Destinations à la une</h3>
 
         <figure>
           <img src="https://a0.muscache.com/ac/pictures/7bff51c1-3c35-47a5-a86c-5ea75ab6be6c.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="dessin représentant los angeles">
-          <figcaption>Los Angeles</figcaption>
+          <figcaption><strong>Los Angeles</strong></figcaption>
         </figure>
 
         <figure>
           <img src="https://a0.muscache.com/ac/pictures/1d8ecdb4-da01-4d35-9c9e-2ef6ca604eca.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="dessin représentant tokyo">
-          <figcaption>Tokyo</figcaption>
+          <figcaption><strong>Tokyo</strong></figcaption>
         </figure>
 
         <figure>
           <img src="https://a0.muscache.com/ac/pictures/d915ce17-d822-426d-b549-0c7b641fec56.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="dessin représentant paris">
-          <figcaption>Paris</figcaption>
+          <figcaption><strong>Paris</strong</figcaption>
         </figure>
 
         <figure>
           <img src="https://a0.muscache.com/ac/pictures/be1dee1c-2ce7-4efb-aca8-26d47a59514b.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="dessin représentant florence">
-          <figcaption>Florence</figcaption>
+          <figcaption><strong>Florence</strong></figcaption>
         </figure>
 
-        <figure>
+        <figure class="no">
           <img src="https://a0.muscache.com/ac/pictures/ebbb24af-52d6-490c-89e9-16cc560140e8.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="dessin représentant london">
-          <figcaption>London</figcaption>
+          <figcaption><strong>London</strong></figcaption>
         </figure>
 
-        <figure>
+        <figure class="no">
           <img src="https://a0.muscache.com/ac/pictures/5be8a4f2-0aab-4bb8-b892-61527da7b550.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70" alt="dessin représentant san francisco">
-          <figcaption>San Francisco</figcaption>
+          <figcaption><strong>San Francisco</strong></figcaption>
         </figure>
 
       </article>
 
 <!--FIN DES GALERIES---------------------------->
 
-      <div>
-        <h3>Ouvrez la porte à un voyageur et à<br>une nouvelle vie</h3>
+      <img id="estimer" src="https://a0.muscache.com/im/pictures/6577effa-6d50-4abf-b0b6-bee8c6f9d902.jpg?aki_policy=promo_hero" alt="hôte accueillant ses invités">
+      <div id="revenus">
+        <h3>Ouvrez la porte à un voyageur et à une<br>nouvelle vie</h3>
         <h4>Complétez vos revenus en accueillant des voyageurs.</h4>
         <button type="submit">Estimer mes revenus</button>
       </div>
-
-      <img src="https://a0.muscache.com/im/pictures/6577effa-6d50-4abf-b0b6-bee8c6f9d902.jpg?aki_policy=promo_hero" alt="hôte accueillant ses invités">
   </main>
 
 <!--FOOTER----------------------------------------->
   <footer>
     <div>
+      <div>
       <select>
         <option value="1">Français</option>
         <option value="2">English</option>
         <option value="3">Español</option>
       </select>
+      </div>
+      <i class="fa fa-angle-down" aria-hidden="true"></i>
 
-      <select>
+      <div>
+      <select id="second">
         <option value="1">EUR</option>
         <option value="2">USD</option>
         <option value="3">JPY</option>
       </select>
+     </div>
+      <i class="fa fa-angle-down" aria-hidden="true"></i>
+
     </div>
 
-    <nav>
+    <nav class="liens">
       <h5>Airbnb</h5>
       <ul>
         <li><a href="#">À propos</a></li>
@@ -269,7 +280,7 @@
       </ul>
     </nav>
 
-    <nav>
+    <nav class="liens">
       <h5>Découvrir</h5>
       <ul>
         <li><a href="#">Confiance et sécurité</a></li>
@@ -280,7 +291,7 @@
       </ul>
     </nav>
 
-    <nav>
+    <nav class="liens">
       <h5>Hébergement</h5>
       <ul>
         <li><a href="#">Pourquoi être hôte</a></li>
@@ -289,17 +300,18 @@
       </ul>
     </nav>
 
-    <div>
+    <div class="deux">
+      <img id="airb" src="https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png" alt="logo airbnb">
       <p>© Airbnb, Inc.</p>
 
       <nav>
         <ul>
           <li><a href="#">Conditions</a></li>
           <li><a href="#">Politique de confidentialité</a></li>
-          <li><a href="#">Plan du site</a></li>
+          <li id="no"><a href="#">Plan du site</a></li>
           <i class="fa fa-facebook" aria-hidden="true"></i>
           <i class="fa fa-twitter" aria-hidden="true"></i>
-          <i class="fa fa-instagram fa-2x"></i>
+          <i class="fa fa-instagram fa-lg"></i>
         </ul>
       </nav>
 
