@@ -10,8 +10,10 @@
   color: red;
 }
 
-.fa fa-angle-down {
+header i {
   display: inline-flex;
+  fill: rgb(118, 118, 118);
+  vertical-align: middle;
 }
 
 .list1 {
@@ -50,17 +52,27 @@ span {
   margin-top: 30px;
 }
 
+.list {
+  display: none;
+}
+
 .menu {
   border-bottom: .5px solid grey;
   margin-top: 70px;
+  margin-bottom: 25px;
 }
 
 .menu li {
   list-style-type: none;
-  display: inline-block;
+  display: inline;
+}
+
+.menu ul {
+  display: inline;
 }
 
 .menu a {
+  display: inline;
   text-decoration: none;
   font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
@@ -73,19 +85,21 @@ span {
   color: #008489;
 }
 
-h3 {
+article h3 {
   font-size: 18px;
   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   color: #484848;
   font-weight: 700;
-  margin-bottom: 24px;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 16px;
+  position: absolute;
 }
 
 article img {
   width: 128px;
   height: 200px;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 article {
@@ -93,10 +107,12 @@ article {
 }
 
 article a {
+  display: inline;
   text-decoration: none;
   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 14px;
   color: #484848;
+  font-weight: normal;
 }
 
 figure {
@@ -121,6 +137,7 @@ figcaption {
   color: #484848;
   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
   font-size: 15px;
+  margin-left: 10px;
 }
 
 .coms {
@@ -145,6 +162,7 @@ figcaption {
 }
 
 #revenus h3 {
+  margin-left: 12px;
   margin-top: 23px;
   font-size: 22px;
   line-height: 30px;
@@ -157,7 +175,7 @@ figcaption {
   color: #484848;
   font-size: 19px;
   line-height: 24px;
-  margin-left: 16px;
+  margin-left: 12px;
   font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif
 }
 
@@ -174,7 +192,7 @@ button {
   background: #008489;
   color: white;
   font-size: 13px;
-  margin-left: 16px;
+  margin-left: 12px;
 }
 
 .no {
@@ -251,12 +269,13 @@ footer div i {
 #airb {
   fill: rgb(118, 118, 118);
   height: 1.5em;
-  width: 1.5em;
+  width: 2em;
   display: inline-block;
 }
 
 footer ul {
   padding-left: 0;
+  display: inline;
 }
 
 footer a:hover {
@@ -275,10 +294,7 @@ footer a {
 
 footer li {
   list-style-type: none;
-}
-
-#no {
-  display: none;
+  display: inline;
 }
 
 footer nav i {
@@ -290,6 +306,76 @@ footer nav i {
 
 /* Petits écrans (tablettes, 768px et plus) */
 @media (min-width: 768px) {
+  h2 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 300;
+  }
+
+h2 span {
+  font-weight: 700;
+}
+
+.input input {
+  display: none;
+}
+
+.input i {
+  display: none;
+}
+
+.list {
+  list-style-type: none;
+  display: inline-flex;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: .5px .5px .5px rgb(215,215,215);
+  border: .5px solid rgb(215,215,215);
+  height: 50px;
+  width: 90%;
+  margin-left: 20px;
+}
+
+.list li {
+  margin: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 28%;
+  align-content: center;
+  font-size: 17px;
+  color: #484848;
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+
+.list i {
+  margin-right: 7px;
+}
+
+#border {
+  border-left: .5px solid rgb(215,215,215);
+  border-right: .5px solid rgb(215,215,215);
+  padding-left: 40px;
+}
+
+article img {
+  width: 180px;
+  height: 275px;
+}
+
+#logement img {
+  width: 380px;
+  height: 255px;
+}
+
+.no {
+  display: inline-block;
+}
+
+#destination figure {
+  display: inline-block;
+}
+
 }
 
 
