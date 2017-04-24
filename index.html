@@ -31,9 +31,21 @@
       <section>
         <h2><span>Où souhaitez-vous<br> aller ?</span> Votre prochain voyage commence sur Airbnb.</h2>
         <form class="input">
+          <i class="fa fa-search" aria-hidden="true"></i>
           <input type="text" placeholder="Partout · Dates indifférentes ·..."/>
         </form>
-     <form class="recherche">
+        <div>
+          <ul class="list">
+            <li><i class="fa fa-search" aria-hidden="true"></i>
+Partout</li>
+           <li id="border"><i class="fa fa-calendar-o" aria-hidden="true"></i>
+Dates indifférentes</li>
+           <li><i class="fa fa-user-o" aria-hidden="true"></i>
+1 voyageur</li>
+          </ul>
+        </div>
+
+        <form class="recherche">
         <label>Où<input type="text" placeholder="Partout"/></label>
         <label>Quand<input type="text" placeholder="Dates indifférentes"/></label>
         <label>Voyageurs<select>
@@ -121,9 +133,8 @@
       </article>
 
 <!--DEUXIEME GALERIE-------------->
-      <article >
-       <h3>Expériences</h3>
-       <a href="#">Plus ></a>
+      <article id="links">
+       <h3>Expériences <a href="#">Plus></a></h3>
         <figure>
           <img src="https://a0.muscache.com/im/pictures/cd745e58-5dc9-40e0-86af-edb52833c4d3.jpg?aki_policy=poster" alt="personnes qui parlent dans un restaurant">
           <figcaption><strong>57€</strong> Get a taste of an authentic tapas</figcaption>
@@ -154,8 +165,7 @@
 <!--TROISIEME GALERIE--------------------------->
 
       <article id="logement">
-        <h3>Logements</h3>
-        <a href="#">Plus ></a>
+        <h3>Logements <a href="#">Plus></a></h3>
         <figure>
           <img src="https://a0.muscache.com/im/pictures/10833886/1edf8559_original.jpg?aki_policy=large" alt="table sur terrasse">
           <figcaption><strong>35€ The best position in Hvar!</strong> <br>Logement entier · 2 lits
@@ -301,14 +311,14 @@
     </nav>
 
     <div class="deux">
-      <img id="airb" src="https://a0.muscache.com/airbnb/static/icons/android-icon-192x192-c0465f9f0380893768972a31a614b670.png" alt="logo airbnb">
+      <img id="airb" src="file:///home/leila/Documents/Semaine5(10-14%20Avril)/Projet/logo-gris.jpg" alt="logo airbnb">
       <p>© Airbnb, Inc.</p>
 
       <nav>
         <ul>
           <li><a href="#">Conditions</a></li>
           <li><a href="#">Politique de confidentialité</a></li>
-          <li id="no"><a href="#">Plan du site</a></li>
+          <li class="no"><a href="#">Plan du site</a></li>
           <i class="fa fa-facebook" aria-hidden="true"></i>
           <i class="fa fa-twitter" aria-hidden="true"></i>
           <i class="fa fa-instagram fa-lg"></i>
