@@ -199,10 +199,7 @@ button {
   display: none;
 }
 
-/***********************************
-***************************************
-*****************************************
-******************FOOTER *******************
+/********************FOOTER *******************
 **********************************************/
 footer {
   border-top: 0.5px solid #DBDBDB;
@@ -308,7 +305,10 @@ footer nav i {
 }
 
 
-/* Petits écrans (tablettes, 768px et plus) */
+/************************************************
+*************************************************
+***** Petits écrans (tablettes, 768px et plus) **
+************************************************/
 @media (min-width: 768px) {
   h2 {
     font-size: 48px;
@@ -445,7 +445,10 @@ select {
   margin-right: 0;
 }
 
-/* Ecrans moyens (desktops, 992px et plus) */
+/************************************************
+*************************************************
+**** Ecrans moyens (desktops, 992px et plus)*****
+************************************************/
 @media (min-width: 992px) {
 
 .list1 {
@@ -466,6 +469,58 @@ h2 {
   margin-left: 150px;
 }
 
+.menu {
+  border-bottom: 10px solid rgb(230,230,230);
+  width: 77%;
+  margin-left: 150px;
+}
 
+article {
+  margin-left: 140px;
+  margin-right: 128px;
+}
+
+#logement img {
+  width: 335px;
+  height: 220px;
+}
+
+#destination img {
+  width: 160px;
+  height: 240px;
+}
+
+#estimer {
+  width: 520px;
+  margin-top: 15px;
+  margin-right: 150px;
+}
+
+#revenus {
+  margin-left: 140px;
+  width: 500px;
+}
+
+footer {
+  margin-top: 120px;
+}
+
+footer div {
+  width: 20%;
+  margin-left: 140px;
+}
+
+select {
+  width: 100%;
+}
+
+.deux {
+  margin-left: 140px;
+  width: 78%;
+}
+
+.deux nav {
+  margin-left: 42%;
+}
 
 }
