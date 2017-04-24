@@ -158,7 +158,7 @@ figcaption {
 
 #estimer {
   margin-top: 43px;
-  width: 100%!important;
+  width: 100%;
 }
 
 #revenus h3 {
@@ -374,6 +374,57 @@ article img {
 
 #destination figure {
   display: inline-block;
+}
+
+#destination img {
+  width: 180px;
+  height: 280px;
+}
+
+ article h3 {
+  font-size: 23px;
+}
+
+#estimer {
+  float: right;
+  width: 47%;
+}
+
+#revenus {
+  display: inline-block;
+  width: 45%;
+}
+
+#revenus h3 {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+#revenus h4 {
+  line-height: 26px;
+}
+
+footer div {
+  display: block;
+  width: 30%;
+}
+
+select {
+  width: 250%;
+  display: inline-block;
+}
+
+#second {
+  margin-left: 14px;
+  margin-top: 0;
+}
+
+.liens {
+  display: inline-block;
+}
+
+footer li {
+  display: block;
 }
 
 }
