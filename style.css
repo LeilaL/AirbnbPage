@@ -199,7 +199,11 @@ button {
   display: none;
 }
 
-/**************************FOOTER ******************************************************/
+/***********************************
+***************************************
+*****************************************
+******************FOOTER *******************
+**********************************************/
 footer {
   border-top: 0.5px solid #DBDBDB;
   margin-top: 50px;
@@ -406,35 +410,62 @@ article img {
 
 footer div {
   display: block;
-  width: 30%;
+  width: 45%;
 }
 
 select {
-  width: 250%;
+  width: 180px;
   display: inline-block;
+  float: left;
 }
 
 #second {
   margin-left: 14px;
-  margin-top: 0;
+  margin-top: 6px;
 }
 
 .liens {
   display: inline-block;
+  margin-left: 20px;
 }
 
-footer li {
+.liens a {
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.liens li {
   display: block;
 }
 
-}
 
+.deux nav {
+  display: inline;
+  margin-left: 180px;
+  margin-right: 0;
+}
 
 /* Ecrans moyens (desktops, 992px et plus) */
 @media (min-width: 992px) {
-  .list1 {
-    display: inline;
-  }
+
+.list1 {
+  display: inline;
+}
+
+.list1 a {
+  text-decoration: none;
+  color: #484D59;
+}
+
+br {
+  display: none;
+}
+
+h2 {
+  width: 50%;
+  margin-left: 150px;
+}
+
 
 
 }
