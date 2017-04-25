@@ -4,7 +4,8 @@
 /***********************HEADER***********************/
 
 #logoairbnb {
-  width: 31px;
+  width: 1.8em;
+  height: 1.8em;
   margin-left: 17px;
   margin-top: 10px;
   color: red;
@@ -57,9 +58,12 @@ span {
 }
 
 .menu {
-  border-bottom: .5px solid grey;
+  border-bottom: .5px solid rgb(230,230,230);
+  width: 100%;
   margin-top: 70px;
   margin-bottom: 25px;
+  margin-left: 20px;
+  padding-bottom: 10px;
 }
 
 .menu li {
@@ -68,7 +72,10 @@ span {
 }
 
 .menu ul {
-  display: inline;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: auto;
+  padding-bottom: 10px;
 }
 
 .menu a {
@@ -79,10 +86,12 @@ span {
   font-size: 12px;
   color: #484848;
   letter-spacing: 0.4px;
+  margin-right: 25px;
 }
 
 .menu span {
   color: #008489;
+  border-bottom: 2px solid #008489;
 }
 
 article h3 {
@@ -144,6 +153,14 @@ figcaption {
   color: #484848!important;
   font-weight: normal;
   font-size: 12px;
+}
+
+#links a {
+  margin-left: 100px;
+}
+
+#logement h3 a {
+  margin-left: 110px;
 }
 
 #logement img {
@@ -232,8 +249,12 @@ select {
   position: relative;
 }
 
+.menu ul {
+  padding-left: 0;
+}
+
 #second {
-  margin-left: 5px;
+  margin-left: 13px;
 }
 
 footer div i {
@@ -328,6 +349,10 @@ h2 span {
   display: none;
 }
 
+.list button {
+  display: none;
+}
+
 .list {
   list-style-type: none;
   display: inline-flex;
@@ -385,7 +410,7 @@ article img {
   height: 280px;
 }
 
- article h3 {
+article h3 {
   font-size: 23px;
 }
 
@@ -413,6 +438,11 @@ footer div {
   width: 45%;
 }
 
+.footerliens {
+  display: flex;
+  width: 70%;
+}
+
 select {
   width: 180px;
   display: inline-block;
@@ -438,7 +468,6 @@ select {
   display: block;
 }
 
-
 .deux nav {
   display: inline;
   margin-left: 180px;
@@ -451,13 +480,38 @@ select {
 ************************************************/
 @media (min-width: 992px) {
 
+header {
+  display: flex;
+  flex-flow: nowrap row;
+}
+
+header nav {
+  margin-left: auto;
+}
+
 .list1 {
-  display: inline;
+  display: flex;
+  list-style-type: none;
+}
+
+.list1 li {
+  margin: 5px;
 }
 
 .list1 a {
   text-decoration: none;
   color: #484D59;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.list {
+  margin-left: 150px;
+  width: 74%;
+}
+
+.list button {
+  display: block;
+  background-color: #FF5A5F;
 }
 
 br {
@@ -473,6 +527,10 @@ h2 {
   border-bottom: 10px solid rgb(230,230,230);
   width: 77%;
   margin-left: 150px;
+}
+
+.menu ul {
+  overflow: hidden;
 }
 
 article {
@@ -521,6 +579,13 @@ select {
 
 .deux nav {
   margin-left: 42%;
+}
+
+.footerliens {
+  justify-content: space-around;
+  width: 60%;
+  position: relative;
+  bottom: 100px;
 }
 
 }
